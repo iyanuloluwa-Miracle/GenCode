@@ -9,7 +9,8 @@ export default {
       xs: ['12px', '16px'],
       sm: ['14px', '150%'],
       base: ['24px', '24%'],
-      lg: ['32px', '150%'],
+      base02: ['12px', '24px'],
+      base2: ['32px', '150%'],
       xl: ['40px', '150%'],
     },
     extend: {
