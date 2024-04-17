@@ -1,6 +1,9 @@
 <template>
   <section class="w-screen h-screen flex items-center justify-center">
     <form class="w-11/12 md:w-1/2 xl:w-1/4">
+      <section>
+        <img src="../../assets/icons/Gen_Code.svg" alt="Logo" class="h-14"/>
+      </section>
       <section class="my-8">
         <h3 class="text-xl capitalize font-semibold text-black01">
           Welcome back !
