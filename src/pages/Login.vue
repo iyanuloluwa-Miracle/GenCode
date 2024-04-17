@@ -1,10 +1,7 @@
 <template>
-    <div>
+    <section>
         <LoginComponent/>
-
-
-
-    </div>
+    </section>
 </template>
 
 <script>

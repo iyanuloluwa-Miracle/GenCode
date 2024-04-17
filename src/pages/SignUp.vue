@@ -30,14 +30,14 @@
         <input class="input border-[1px]  border-blue01 focus:border-Till10101 focus:outline-none rounded-md w-full h-11 transition-all px-3 duration-300 ease-linear" type="text" placeholder="email" required="" name="email" value="">
       </section>
       <section class="my-2 mb-2">
-        <label htmlFor="username" class="text-base02 block my-2">
+        <label class="text-base02 block my-2">
           Password
         </label>
         <input class="input border-[1px]  border-blue01 focus:border-Till10101 focus:outline-none rounded-md w-full h-11 px-3 transition-all duration-300 ease-linear" type="text" placeholder="password" required="" name="password" value="">
       </section>      
       <p class="text-[11px]">Password must be atleast 8 character</p>
       <section class="my-4 mb-5 w-full">
-        <button class="capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-whites bg-Till10101 hover:bg-blue01 w-full ">
+        <button class="font-semibold selection:capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-whites bg-Till10101 hover:bg-blue01 w-full ">
             Register
         </button>
       </section>
