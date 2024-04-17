@@ -7,8 +7,8 @@
         </section>
         <section>
           <h3 class="text-xl font-semibold text-black01">Forgot Password?</h3>
-          <p class="text-sm text-Till091">
-            abcd@gmail.com
+          <p class="text-[11px] text-Till091">
+            Enter your email associated with this account
           </p>
         </section>
         <section class="my-2 mb-2">
@@ -26,16 +26,14 @@
         </section>
         <section class="my-4 mb-5 w-full">
           <button
-            class="font-semibold selection:capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-whites bg-Till10101 hover:bg-blue01 w-full"
+            class="font-bold selection:capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-black02 bg-Till10101 hover:bg-blue01 w-full text-[14px]"
           >
             Reset password
           </button>
         </section>
-        <section>
-          <p class="capitalize text-[10px] text-center">
-            Already have a Gencode account ?
-            <a class="capitalize text-[12px] px-1" href="#">Login</a>
-          </p>
+        <section class="flex items-center gap-2">
+         <img src="../assets/icons/arrow-left.svg" alt="arrow-left" class="h-3"/>
+         <p class="text-[10px]">Back to home</p>
         </section>
       </form>
     </section>
