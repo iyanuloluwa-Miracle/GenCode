@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Hello Footer</p>
+        <p>Footer Section</p>
 
     </div>
 </template>
