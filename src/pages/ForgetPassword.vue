@@ -33,7 +33,7 @@
         </section>
         <section class="flex items-center gap-2">
          <img src="../assets/icons/arrow-left.svg" alt="arrow-left" class="h-3"/>
-         <p class="text-[10px]">Back to home</p>
+         <p class="text-[12px]"><router-link to="/login">Back to home</router-link></p>
         </section>
       </form>
     </section>

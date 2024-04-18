@@ -44,7 +44,7 @@
       <section>
         <p class="capitalize text-[10px] text-center">
           Already have a Gencode account ?
-          <a class="capitalize text-[12px] px-1" href="#">Login</a>
+          <router-link to="/login" class="capitalize text-[12px] px-1">Login</router-link>
         </p>
       </section>
     </form>

@@ -47,15 +47,15 @@
 
       <section>
         <p class="font-semibold capitalize inline text-[13px] ">
-          no account?<a
+          no account?<router-link to="/register"
             class="font-semibold capitalize text-[13px] px-1 text-Till091"
-            href="#"
-            >create account</a
-          ><a
+            
+            >create account</router-link
+          ><router-link
             class="font-semibold capitalize text-[13px] px-1 text-Till091"
-            href="#"
-            >Forgot Password</a
-          >
+            to="/forget-password"
+            >Forgot Password</router-link>
+          
         </p>
       </section>
     </form>

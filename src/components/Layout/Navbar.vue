@@ -11,30 +11,30 @@
         <ul
           class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
         >
-          <li class="text-[14px] text-Till01 font-bold">Home</li>
-          <li class="text-[14px] text-Till01 font-bold">Services</li>
-          <li class="text-[14px] text-Till01 font-bold">Contact Us</li>
-          <li class="text-[14px] text-Till01 font-bold">FAQS</li>
+          <li class="text-[14px] text-Till01 font-bold"><router-link to="/">Home</router-link></li>
+          <li class="text-[14px] text-Till01 font-bold"><router-link to="/services">Services</router-link></li>
+          <li class="text-[14px] text-Till01 font-bold"><router-link to="/contact-us">Contact Us</router-link></li>
+          <li class="text-[14px] text-Till01 font-bold"><router-link to="/faqs">FAQS</router-link></li>
         </ul>
       </div>
 
       <div class="flex items-center gap-7">
 
-         <a class="flex items-center gap-9">
+         <router-link to="/login" class="flex items-center gap-9">
           <button
-            class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform  bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Aqua hover:text-whites w-28"
+            class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform  bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Till10101 hover:text-whites w-28"
           >
             Login
           </button>
-        </a>
+        </router-link>
 
-        <a class="flex items-center gap-9">
+        <router-link to="/register" class="flex items-center gap-9">
           <button
-            class="capitalize text-[12px] font-bold rounded p-2 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-secondary w-28"
+            class="capitalize text-[12px] font-bold rounded p-2 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-Aqua hover:text-whites w-28"
           >
             Register
           </button>
-        </a>
+        </router-link>
 
        
       </div>
