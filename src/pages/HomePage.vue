@@ -1,19 +1,23 @@
 <template>
     <div>
       <Navbar/>
-      <p>Hello world</p>
+      <HeroSection/>
+      <p>other components Loading</p>
       <Footer/>
+      
     </div>
   </template>
   
   <script>
   import Navbar from '../components/Layout/Navbar.vue';
   import Footer from '../components/Layout/Footer.vue';
+  import HeroSection from '../components/Layout/HeroSection.vue';
   
   export default {
     components: {
       Navbar,
-      Footer
+      Footer,
+      HeroSection
     }
   }
   </script>
