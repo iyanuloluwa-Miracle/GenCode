@@ -1,10 +1,10 @@
 <template>
   <section class="bg-[#F3FAFD] flex items-center justify-around flex-wrap">
-    <div>
-      <h2 class="text-[64px] text-[#2B2121] font-medium">
+    <div cl>
+      <h2 class="lg:text-[64px] text-[#2B2121] font-medium sm:text-center text-[42px]">
         Get The Most of Your <br />Information Secured
       </h2>
-      <p class="text-[32px] text-[#1D1616]">
+      <p class="lg:text-[32px] text-[#1D1616]  sm:text-center text-[18px]">
         Generate,save and utilize your digital QR codes.
       </p>
 

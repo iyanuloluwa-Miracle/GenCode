@@ -1,9 +1,9 @@
 <template>
   <Header class="bg-[#F3FAFD]">
     <Nav class="flex justify-around items-center w-[92%]">
-      <a href="#">
+      <router-link to="/">
         <img src="../../assets/icons/Gen_Code.svg" alt="nav-logo"/>
-      </a>
+      </router-link>
 
       <div
         class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex flex-wrap items-center px-2"
