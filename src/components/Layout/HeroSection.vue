@@ -1,14 +1,14 @@
 <template>
   <section class="bg-[#F3FAFD] flex items-center justify-around flex-wrap">
-    <div cl>
-      <h2 class="lg:text-[64px] text-[#2B2121] font-medium sm:text-center text-[42px]">
+    <div>
+      <h2 class="lg:text-[64px] text-[#2B2121] font-medium text-[32px] md:text-center md:text-[50px] text-center">
         Get The Most of Your <br />Information Secured
       </h2>
-      <p class="lg:text-[32px] text-[#1D1616]  sm:text-center text-[18px]">
+      <p class="lg:text-[30px] text-[14px] text-[#1D1616] text-center">
         Generate,save and utilize your digital QR codes.
       </p>
 
-      <div class="flex items-center gap-10 pt-10">
+      <div class="flex items-center flex-wrap gap-10 pt-10 md:flex justify-center item-center">
         <a class="flex items-center gap-9" href="#">
           <button
             class="capitalize text-[12px] font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-60 hover:text-whites"
@@ -26,8 +26,8 @@
         </a>
       </div>
     </div>
-    <div>
-      <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" />
+    <div class="image">
+      <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner"/>
     </div>
   </section>
 </template>
@@ -35,3 +35,12 @@
 <script>
 export default {};
 </script>
+
+<style>
+  @media (max-width:768px){
+   .image{
+    width:60%;
+   }   
+  }
+
+</style>

@@ -6,7 +6,7 @@
       </router-link>
 
       <div
-        class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex flex-wrap items-center px-2"
+        class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex flex-wrap items-center px-2 "
       >
         <ul
           class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
