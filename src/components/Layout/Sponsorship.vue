@@ -16,9 +16,10 @@
 <style scoped>
  @media (max-width:768px){
    .image{
-    width:50%;
-    margin: 90px;
-    gap: 20px;
+    width:40%;
+    gap: 30px;
+    margin-left: 90px;
+   
    }   
   }
 

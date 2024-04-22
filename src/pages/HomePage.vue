@@ -3,7 +3,8 @@
       <Navbar/>
       <HeroSection/>
       <Sponsorship/>
-      <p>other components Loading</p>
+      <OurServices/>
+
       <Footer/>
       
     </div>
@@ -14,12 +15,15 @@
   import Footer from '../components/Layout/Footer.vue';
   import HeroSection from '../components/Layout/HeroSection.vue';
   import Sponsorship from '../components/Layout/Sponsorship.vue';
+  import OurServices from '../components/Layout/OurServices.vue';
+
   export default {
     components: {
       Navbar,
       Footer,
       HeroSection,
-      Sponsorship
+      Sponsorship,
+      OurServices
     }
   }
   </script>
