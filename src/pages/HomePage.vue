@@ -5,7 +5,8 @@
       <Sponsorship/>
       <OurServices/>
       <QrGuide/>
-
+      <Testimonial/>
+      
 
       <Footer/>
       
@@ -19,6 +20,7 @@
   import Sponsorship from '../components/Layout/Sponsorship.vue';
   import OurServices from '../components/Layout/Services.vue';
   import QrGuide from '../components/Layout/QrGuide.vue';
+  import Testimonial from '../components/Layout/Testimonial.vue'
 
   export default {
     components: {
@@ -27,7 +29,8 @@
       HeroSection,
       Sponsorship,
       OurServices,
-      QrGuide
+      QrGuide,
+      Testimonial
     }
   }
   </script>
