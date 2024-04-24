@@ -6,6 +6,7 @@
       <OurServices/>
       <QrGuide/>
       <Testimonial/>
+      <MoreAboutProduct/>
       
 
       <Footer/>
@@ -21,6 +22,7 @@
   import OurServices from '../components/Layout/Services.vue';
   import QrGuide from '../components/Layout/QrGuide.vue';
   import Testimonial from '../components/Layout/Testimonial.vue'
+  import MoreAboutProduct from '../components/Layout/MoreAboutProduct.vue';
 
   export default {
     components: {
@@ -30,7 +32,8 @@
       Sponsorship,
       OurServices,
       QrGuide,
-      Testimonial
+      Testimonial,
+      MoreAboutProduct
     }
   }
   </script>

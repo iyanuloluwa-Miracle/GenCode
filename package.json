@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "swiper": "^8.4.7",
     "unplugin-icons": "^0.18.5",
     "vue": "^3.4.21",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
