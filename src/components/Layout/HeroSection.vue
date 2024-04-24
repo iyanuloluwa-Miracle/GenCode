@@ -39,7 +39,7 @@ export default {};
 <style>
   @media (max-width:768px){
    .image{
-    width:60%;
+    width:100%;
    }   
   }
 
