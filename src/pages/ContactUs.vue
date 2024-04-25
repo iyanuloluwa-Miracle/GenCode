@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="bg-[#F3FAFD]">
         <Navbar/>
         <ContactUsComponent/>
     </section>
