@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-[46px] text-center mt-9 text-[#272E31] font-medium contact-heading">
+    <h2 class="text-[46px] text-center mt-9 text-[#272E31] font-bo contact-heading">
       How Can We Help you ?
     </h2>
     <p class="text-[14px] text-center text-[#3D8891] contact-paragraph">
