@@ -3,18 +3,22 @@
 
     <Navbar/>
     <ServicesComponentVue/>
+    <FooterVue/>
     
    </section>
 </template>
 
 <script>
    import Navbar from '../../src/components/Layout/Navbar.vue'
+   import FooterVue from '../components/Layout/Footer.vue'
    import ServicesComponentVue from '../components/ServiceComponent/ServicesComponent.vue'
+
    
    export default {
     components: {
     Navbar,
-    ServicesComponentVue
+    ServicesComponentVue,
+    FooterVue
   }
 }
 </script>

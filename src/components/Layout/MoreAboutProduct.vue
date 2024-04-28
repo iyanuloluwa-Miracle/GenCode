@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-[50px]">
+  <section class="mt-[50px] product-text">
     <div class="bg-[#EBF9FC] rounded-[10px] mx-40 scan-wrapper">
       <h4 class="text-[54px] text-center mt-9 text-blue01 font-medium scan-material">
         Instantly scan your materials for free
@@ -27,7 +27,9 @@
 <style>
  @media (max-width:768px){
     .scan-wrapper{
-        width: 90%;
+      width: 100%;
+        margin: 0;
+        margin-left: 20px;
         
     }
     .scan-material{
@@ -38,7 +40,13 @@
         font-size: 14px;
         text-align: left;
     }
-    
+    .scan-button{
+      
+    }
+    .product-text{
+      margin: 0;
+      width: 100%;
+    }
   }
 </style>
 
