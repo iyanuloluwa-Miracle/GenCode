@@ -1,15 +1,15 @@
 <template>
   <Header class="bg-[#F3FAFD]">
-    <Nav class="flex justify-around items-center w-[92%]">
+    <Nav class="flex justify-between items-center w-[92%] mx-auto">
       <router-link to="/">
         <img src="../../assets/icons/Gen_Code.svg" alt="nav-logo"/>
       </router-link>
 
       <div
-        class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex flex-wrap items-center px-2 "
+        class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 "
       >
         <ul
-          class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+          class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8" :class="{ 'top-[9%]': isMenuOpen }" 
         >
           <li class="text-[14px] text-Till01 font-bold"><router-link to="/">Home</router-link></li>
           <li class="text-[14px] text-Till01 font-bold"><router-link to="/services">Services</router-link></li>
@@ -19,6 +19,7 @@
       </div>
 
       <div class="flex items-center gap-7">
+
 
          <router-link to="/login" class="flex items-center gap-9">
           <button
@@ -36,12 +37,31 @@
           </button>
         </router-link>
 
+        <ion-icon @click="toggleMenu" :name="menuIcon" class="text-[25px] cursor-pointer md:hidden"></ion-icon>
+
        
       </div>
     </Nav>
+
   </Header>
 </template>
 
-
-<script></script>
-<style scoped></style>
+<script>
+export default {
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  },
+  computed: {
+    menuIcon() {
+      return this.isMenuOpen ? 'close' : 'menu';
+    }
+  }
+};
+</script>

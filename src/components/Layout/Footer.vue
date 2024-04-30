@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-[#2E666D] flex items-center justify-evenly">
     <div class="mt-[40px]">
-      <div class="">
+      <div>
         <img src="../../assets/icons/Group 2270.svg" alt="Gencode Logo" />
-        <div class="flex gap-7">
+        <div class="flex gap-7 ml-[77px]">
           <img
             src="../../assets/icons/ri-linkedin-line.svg"
             alt="Gencode Logo"
