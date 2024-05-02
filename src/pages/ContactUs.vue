@@ -2,6 +2,7 @@
     <section class="bg-[#F3FAFD]">
         <Navbar/>
         <ContactUsComponent/>
+        <FooterVue/>
     </section>
 
    
@@ -11,11 +12,14 @@
 
     import Navbar from '../../src/components/Layout/Navbar.vue'
     import ContactUsComponent from '../components/ContactUs/ContactUsComponent.vue';
+    import FooterVue from '../components/Layout/Footer.vue'
+
 
     export default {
         components: {
             Navbar,
-            ContactUsComponent
+            ContactUsComponent,
+            FooterVue
         
     }
 }
