@@ -6,10 +6,11 @@
       </router-link>
 
       <div
-        class="duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 "
+        class="nav-link duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 "
+        :class="{ 'top-[9%]': isMenuOpen }"
       >
         <ul
-          class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8" :class="{ 'top-[9%]': isMenuOpen }" 
+          class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
         >
           <li class="text-[14px] text-Till01 font-bold"><router-link to="/">Home</router-link></li>
           <li class="text-[14px] text-Till01 font-bold"><router-link to="/services">Services</router-link></li>
@@ -19,9 +20,7 @@
       </div>
 
       <div class="flex items-center gap-7">
-
-
-         <router-link to="/login" class="flex items-center gap-9">
+        <router-link to="/login" class="flex items-center gap-9">
           <button
             class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform  bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Till10101 hover:text-whites w-28"
           >
@@ -37,31 +36,33 @@
           </button>
         </router-link>
 
-        <ion-icon @click="toggleMenu" :name="menuIcon" class="text-[25px] cursor-pointer md:hidden"></ion-icon>
-
-       
+        <ion-icon @click="toggleMenu" name="menu" class="text-[25px] cursor-pointer md:hidden"></ion-icon>
       </div>
     </Nav>
-
   </Header>
 </template>
 
 <script>
+
+
 export default {
+  
   data() {
     return {
-      isMenuOpen: false
+      menuOpen: false,
     };
   },
   methods: {
     toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
-    }
+      this.menuOpen = !this.menuOpen;
+    },
   },
   computed: {
-    menuIcon() {
-      return this.isMenuOpen ? 'close' : 'menu';
-    }
-  }
+    navLinksClasses() {
+      return {
+        'top-9': this.menuOpen,
+      };
+    },
+  },
 };
 </script>
