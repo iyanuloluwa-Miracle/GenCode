@@ -6,8 +6,9 @@ import SignUp from '../pages/SignUp.vue'
 import FAQ from '../pages/FAQ.vue'
 import ContactUs from '../pages/ContactUs.vue'
 import ForgotPassword from '../pages/ForgotPassword.vue'
-
-
+import Settings from '../pages/Dashboard/Settings.vue'
+import ProfileDashboard from '../pages/Dashboard/ProfileDashboard.vue'
+import UrlDashboard from '../pages/Dashboard/UrlDashboard.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -19,6 +20,11 @@ const router = createRouter({
     { path: '/faqs', component: FAQ },
     { path: '/contact-us', component: ContactUs },
     { path: '/forgot-password',component:ForgotPassword},
+    { path: '/settings',component:Settings},
+    { path: '/profile-dashboard',component:ProfileDashboard},
+    { path: '/url-dashboard',component:UrlDashboard},
+
+    
   ]
 })
 
