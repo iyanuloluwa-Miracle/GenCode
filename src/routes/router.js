@@ -11,8 +11,7 @@ import ProfileDashboard from '../pages/Dashboard/ProfileDashboard.vue'
 import UrlDashboard from '../pages/Dashboard/UrlDashboard.vue'
 import TextDashboard from '../pages/Dashboard/TextDashboard.vue'
 import FacebookDashboard from '../pages/Dashboard/FacebookDashboard.vue'
-
-
+import XDashboard from '../pages/Dashboard/XDashboard.vue'
 
 
 
@@ -33,7 +32,7 @@ const router = createRouter({
     { path: '/url-dashboard',component:UrlDashboard},
     { path: '/text-dashboard',component:TextDashboard},
     { path: '/facebook-dashboard',component:FacebookDashboard},
-
+    { path: '/twitter-dashboard',component:XDashboard},
     
   ]
 })
