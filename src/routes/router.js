@@ -9,6 +9,13 @@ import ForgotPassword from '../pages/ForgotPassword.vue'
 import Settings from '../pages/Dashboard/Settings.vue'
 import ProfileDashboard from '../pages/Dashboard/ProfileDashboard.vue'
 import UrlDashboard from '../pages/Dashboard/UrlDashboard.vue'
+import TextDashboard from '../pages/Dashboard/TextDashboard.vue'
+
+
+
+
+
+
 
 const router = createRouter({
   history: createWebHistory(),
@@ -23,6 +30,7 @@ const router = createRouter({
     { path: '/settings',component:Settings},
     { path: '/profile-dashboard',component:ProfileDashboard},
     { path: '/url-dashboard',component:UrlDashboard},
+    { path: '/text-dashboard',component:TextDashboard},
 
     
   ]
