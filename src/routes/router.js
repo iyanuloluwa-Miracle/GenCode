@@ -16,7 +16,6 @@ import XDashboard from '../pages/Dashboard/XDashboard.vue'
 
 
 
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [

@@ -30,7 +30,7 @@
 
       </div>
 
-      <div class="rounded-[16px] bg-whites hover:bg-[#76D4DF]">
+      <div class="rounded-[16px] bg-whites hover:bg-[#76D4DF] h-">
         <img src="../../assets/icons/user.svg" alt="user" width="35" class="ml-10 mt-8"/>
         <h4 class="text-[40px] font-semibold px-10 mt-5 text-[#12292B] card-heading4">Improved<br>Communication</h4>
         <p class="text-[18px] px-10 pt-2 text-[#1E4448] card-paragraph">Confidential messages,Information <br> and the most sensitive documentation <br>can be communicated <br>in text</p>
