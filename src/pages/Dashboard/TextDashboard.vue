@@ -1,12 +1,19 @@
 <template>
     <div>
+        <DashboardHeader/>
         <p>Text Dashboard</p>
 
     </div>
 </template>
 
 <script>
+     import DashboardHeader from '../../components/Dashboard/DashboardHeader.vue';
     export default {
+        components:{
+            DashboardHeader
+
+
+        }
         
     }
 </script>
