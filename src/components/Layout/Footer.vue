@@ -51,7 +51,9 @@
           style="height: 60px !important; width: 217px !important"
       /></a>
     </div>
+    
   </footer>
+  
 </template>
 
 <script></script>
