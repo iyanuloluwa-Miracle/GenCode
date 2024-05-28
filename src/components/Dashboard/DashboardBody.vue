@@ -126,6 +126,7 @@
             <a class="flex items-center gap-9" href="#">
               <button
                 class="capitalize text-[12px] font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-80 hover:text-whites"
+                @click="generateQrCode"
               >
                 Generate QR code
               </button>
@@ -134,11 +135,30 @@
         </div>
       </div>
     </div>
+
+  
   </div>
 </template>
 
+
 <script>
-export default {};
+export default {
+  methods: {
+    generateQrCode() {
+      const value = 'Your QR code value';  // Replace with actual value from input fields
+      this.$emit('generateQrCode', value);
+    },
+  },
+};
 </script>
 
-<style scoped></style>
+
+<style scoped>
+@media (max-width: 768px) {
+
+
+
+
+}
+
+</style>

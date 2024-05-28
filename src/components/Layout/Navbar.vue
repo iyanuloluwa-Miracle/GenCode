@@ -1,13 +1,13 @@
 <template>
-  <Header class="bg-[#F3FAFD]">
+  <Header class="bg-[#F3FAFD] ">
     <Nav class="flex justify-between items-center w-[92%] mx-auto">
       <router-link to="/">
-        <img src="../../assets/icons/Gen_Code.svg" alt="nav-logo"/>
+        <img src="../../assets/icons/Gen_Code.svg" alt="nav-logo" class="nav-logo"/>
       </router-link>
 
       <div
         class="nav-link duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 "
-        :class="{ 'top-[9%]': isMenuOpen }"
+        :class="{ 'top-[9%]': menuOpen }"
       >
         <ul
           class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
@@ -43,10 +43,7 @@
 </template>
 
 <script>
-
-
 export default {
-  
   data() {
     return {
       menuOpen: false,
@@ -57,12 +54,13 @@ export default {
       this.menuOpen = !this.menuOpen;
     },
   },
-  computed: {
-    navLinksClasses() {
-      return {
-        'top-9': this.menuOpen,
-      };
-    },
-  },
 };
 </script>
+<style scoped>
+@media (max-width:768px){
+   .nav-logo{
+    width: 100%; /* adjust this value as needed */
+   }  
+   /* rest of your styles */
+}
+</style>
