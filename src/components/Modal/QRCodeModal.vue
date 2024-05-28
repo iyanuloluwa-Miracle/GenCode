@@ -3,22 +3,19 @@
     <div v-if="show" class="modal">
       <div class="modal-content">
         <span class="close" @click="handleClose">&times;</span>
-        <div class="modal-body">
-          <h2>QR Code Generated</h2>
-          <div class="qr-code-container">
-            <img :src="qrCode" alt="QR Code" />
-          </div>
-          <button class="download-btn">Download QR Code ⬇</button>
-          <div class="share-options">
-            <p>Share QR Code via E-mail 📧</p>
-            <div class="social-icons">
-              <img src="../../assets/icons/twitter.svg" alt="Twitter" />
-              <img src="../../assets/icons/facebook.svg" alt="Facebook" />
-              <img src="../../assets/icons/instagram.svg" alt="Instagram" />
-            </div>
-          </div>
-          <button class="return-btn" @click="handleClose">Return to Dashboard</button>
+        <h2 class="text-[28px] font-semibold text-[#1D1616]">QR Code Generated</h2>
+        <div class="qr-code-container">
+          <img :src="qrCode" alt="QR Code" />
         </div>
+        <p class="text-[22px] text-[#1D1616]">Download QR Code ⬇</p>
+        <p>Check your downloads</p>
+        <p class="text-[20px] text-[#1D1616]">Share QR Code via E-mail 📧</p>
+        <div class="social-icons flex items-end gap-2 justify-center">
+          <img src="../../assets/icons/color-twitter.svg" alt="Twitter" />
+          <img src="../../assets/icons/facebook-color.svg" alt="Facebook" />
+          <img src="../../assets/icons/instagram-color.svg" alt="Instagram" />
+        </div>
+        <button class="return-btn" @click="handleClose">Return to Dashboard</button>
       </div>
     </div>
   </template>
@@ -52,28 +49,34 @@
   
   .modal-content {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 40px;
     position: relative;
+    width: 40%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   
   .close {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
-  }
-  
-  .modal-body {
-    text-align: center;
   }
   
   .qr-code-container {
     margin: 20px 0;
   }
   
-  .download-btn, .return-btn {
+  .qr-code-container img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .download-btn {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
@@ -85,18 +88,29 @@
     border-radius: 5px;
   }
   
-  .download-btn:hover, .return-btn:hover {
+  .download-btn:hover {
     background: #214953;
-  }
-  
-  .share-options {
-    margin: 20px 0;
   }
   
   .social-icons img {
     width: 30px;
-    margin: 0 10px;
+    margin: 10px;
     cursor: pointer;
+  }
+  
+  .return-btn {
+    margin-top: 20px;
+    padding: 10px 78px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #76D4DF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .return-btn:hover {
+    background: #214953;
   }
   </style>
   
