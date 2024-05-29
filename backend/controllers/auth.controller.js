@@ -49,7 +49,7 @@ const signInUser = async (req, res) => {
       success: true,
       data: { user, accessToken },
       error: null,
-      message: "Login successful",
+      message: "Login successful 🎉",
     });
   } catch (err) {
     res.status(400).json({
