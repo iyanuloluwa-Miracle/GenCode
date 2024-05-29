@@ -3,7 +3,8 @@ const Joi = require("joi");
 
 // Joi schema for user registration
 const userRegistrationSchema = Joi.object({
-  username: Joi.string().required(),
+  firstName: Joi.string().required(),
+  lastName: Joi.string().required(),
   email: Joi.string().email().required(),
   password: Joi.string().required(),
 });
