@@ -102,15 +102,17 @@
     margin-top: 20px;
     padding: 10px 78px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    background: #76D4DF;
-    color: white;
-    border: none;
+    background: white;
+    color: #2E666D;
+    border: 2px solid #76D4DF;
     border-radius: 5px;
   }
   
   .return-btn:hover {
     background: #214953;
+    color: white;
   }
   </style>
   
