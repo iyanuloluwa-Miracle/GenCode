@@ -15,11 +15,13 @@
     "primevue": "^3.52.0",
     "qrcode": "^1.5.3",
     "swiper": "^8.4.7",
+    "toastify-js": "^1.12.0",
     "unplugin-icons": "^0.18.5",
     "vue": "^3.4.21",
     "vue-awesome-swiper": "^5.0.1",
     "vue-router": "^4.3.0",
-    "vue-sweetalert2": "^5.0.10"
+    "vue-sweetalert2": "^5.0.10",
+    "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
     "@iconify/tailwind": "^0.1.4",
