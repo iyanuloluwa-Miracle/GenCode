@@ -61,39 +61,40 @@
 
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/text.svg" alt="text" />
-            <p class="text-[#1D1616] text-[24px]">TEXT</p>
+            <router-link to="/text-dashboard" class="text-[#1D1616] text-[24px]">TEXT</router-link>
           </div>
 
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/email.svg" alt="email" />
-            <p class="text-[#1D1616] text-[24px]">EMAIL</p>
+            <router-link to="/email-dashboard" class="text-[#1D1616] text-[24px]">EMAIL</router-link>
           </div>
 
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/contact card.svg" alt="contact card" />
-            <p class="text-[#1D1616] text-[24px]">CONTACT CARD</p>
+            <router-link to="/contact-dashboard" class="text-[#1D1616] text-[24px]">CONTACT CARD</router-link>
           </div>
 
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-1">
             <img src="../../assets/icons/event.svg" alt="event" />
-            <p class="text-[#1D1616] text-[24px]">Event</p>
+            <router-link to="/event-dashboard" class="text-[#1D1616] text-[24px]">EVENT</router-link>
           </div>
         </div>
 
         <div class="flex gap-10">
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/X.svg" alt="twitter" />
-            <p class="text-[#1D1616] text-[24px]">TWITTER</p>
+            <router-link to="/twitter-dashboard" class="text-[#1D1616] text-[24px]">TWITTER</router-link>
           </div>
 
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/youtube.svg" alt="url" />
-            <p class="text-[#1D1616] text-[24px]">YOUTUBE</p>
+            <router-link to="/youtube-dashboard" class="text-[#1D1616] text-[24px]">YOUTUBE</router-link>
           </div>
 
           <div class="flex items-center gap-2">
             <img src="../../assets/icons/facebook.svg" alt="url" />
-            <p class="text-[#1D1616] text-[24px]">FACEBOOK</p>
+            <router-link to="/facebook-dashboard" class="text-[#1D1616] text-[24px]">FACEBOOK</router-link>
+          
           </div>
         </div>
 

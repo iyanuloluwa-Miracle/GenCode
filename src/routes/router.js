@@ -12,7 +12,10 @@ import UrlDashboard from '../pages/Dashboard/UrlDashboard.vue'
 import TextDashboard from '../pages/Dashboard/TextDashboard.vue'
 import FacebookDashboard from '../pages/Dashboard/FacebookDashboard.vue'
 import XDashboard from '../pages/Dashboard/XDashboard.vue'
-
+import EmailDashboard from '../pages/Dashboard/EmailDashboard.vue'
+import YoutubeDashboard from '../pages/Dashboard/YoutubeDashboard.vue'
+import EventsDashboard from '../pages/Dashboard/EventsDashboard.vue'
+import ContactDashboard from '../pages/Dashboard/ContactCardDashboard.vue'
 
 
 
@@ -31,8 +34,11 @@ const router = createRouter({
     { path: '/url-dashboard',component:UrlDashboard},
     { path: '/text-dashboard',component:TextDashboard},
     { path: '/facebook-dashboard',component:FacebookDashboard},
-    { path: '/twitter-dashboard',component:XDashboard},
-    
+    { path: '/email-dashboard',component:EmailDashboard},
+    { path: '/contact-dashboard',component:ContactDashboard}, 
+    { path: '/twitter-dashboard',component:XDashboard}, 
+    { path: '/youtube-dashboard',component:YoutubeDashboard},
+    { path: '/event-dashboard',component:EventsDashboard},
   ]
 })
 
