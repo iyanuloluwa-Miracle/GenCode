@@ -7,6 +7,9 @@ const {
 } = require("./middleware/errorHandler");
 require('dotenv').config();
 
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger-output.json');
+
 
 
 
@@ -24,6 +27,8 @@ app.get('/', async (req, res, next) => {
 
 app.use('/api', require('./routes/api.route'));
 
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 // Middleware to generate 404 error for undefined routes
 app.use(notFoundHandler);
 
