@@ -9,8 +9,8 @@
 </template>
 
 <script>
-   import Navbar from '../../src/components/Layout/Navbar.vue'
-   import FooterVue from '../components/Layout/Footer.vue'
+   import Navbar from '../../src/components/Sections/Navbar.vue'
+   import FooterVue from '../components/Sections/Footer.vue'
    import ServicesComponentVue from '../components/ServiceComponent/ServicesComponent.vue'
 
    

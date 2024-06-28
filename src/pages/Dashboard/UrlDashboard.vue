@@ -13,6 +13,8 @@ import DashboardBody from "../../components/Dashboard/DashboardBody.vue";
 import Modal from "../../components/Modal/QRCodeModal.vue";
 import QRCode from 'qrcode';
 
+
+
 export default {
   components: {
     DashboardHeader,

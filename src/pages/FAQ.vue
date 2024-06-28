@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Navbar from "../../src/components/Layout/Navbar.vue";
+import Navbar from "../../src/components/Sections/Navbar.vue";
 import FaqComponent from "../components/FaqComponent/FaqComponent.vue";
-import FooterVue from '../components/Layout/Footer.vue'
+import FooterVue from '../components/Sections/Footer.vue'
 
 export default {
   components: {

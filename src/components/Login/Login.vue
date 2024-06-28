@@ -89,6 +89,11 @@ export default {
           email: this.email,
           password: this.password
         });
+
+         // Save the token to localStorage
+        localStorage.setItem('authToken', response.data.accessToken);
+
+
         this.success = 'User signed up successfully';
         this.error = '';
         this.loading = false;
@@ -107,7 +112,7 @@ export default {
           this.$router.push('/url-dashboard');
         }, 3000);
       } catch (error) {
-        this.error = 'Error signing up';
+        this.error = 'Error Logging in';
         this.success = '';
         this.loading = false;
         // Show a toast notification for error

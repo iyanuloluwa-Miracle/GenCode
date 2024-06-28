@@ -19,6 +19,12 @@ import ContactDashboard from '../pages/Dashboard/ContactCardDashboard.vue'
 
 
 
+// Mock function to check if user is authenticated
+function isAuthenticated() {
+  return !!localStorage.getItem('authToken');
+}
+
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -42,4 +48,17 @@ const router = createRouter({
   ]
 })
 
+
+
+// Global route guard
+router.beforeEach((to, from, next) => {
+  const publicPages = ['/', '/login', '/services', '/register', '/faqs', '/contact-us', '/forgot-password'];
+  const authRequired = !publicPages.includes(to.path);
+
+  if (authRequired && !isAuthenticated()) {
+    return next('/login');
+  }
+
+  next();
+});
 export default router
