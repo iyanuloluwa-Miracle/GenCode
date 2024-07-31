@@ -16,6 +16,7 @@ import EmailDashboard from '../pages/Dashboard/EmailDashboard.vue'
 import YoutubeDashboard from '../pages/Dashboard/YoutubeDashboard.vue'
 import EventsDashboard from '../pages/Dashboard/EventsDashboard.vue'
 import ContactDashboard from '../pages/Dashboard/ContactCardDashboard.vue'
+import NotFoundView from '../pages/404Page.vue';
 
 
 
@@ -45,6 +46,7 @@ const router = createRouter({
     { path: '/twitter-dashboard',component:XDashboard}, 
     { path: '/youtube-dashboard',component:YoutubeDashboard},
     { path: '/event-dashboard',component:EventsDashboard},
+    {path: '/:catchAll(.*)',component: NotFoundView},
   ]
 })
 
