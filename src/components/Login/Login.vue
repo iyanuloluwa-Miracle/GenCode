@@ -85,7 +85,7 @@ export default {
     async handleLogin(){
       try {
         this.loading = true;
-        const response = await axios.post('http://localhost:3009/api/login/', {
+        const response = await axios.post('https://gen-code-api.onrender.com/api/login/', {
           email: this.email,
           password: this.password
         });
