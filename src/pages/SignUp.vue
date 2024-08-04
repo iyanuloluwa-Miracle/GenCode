@@ -98,7 +98,7 @@ export default {
     async handleSubmit() {
       try {
         this.loading = true;
-        const response = await axios.post('http://localhost:3009/api/signup/', {
+        const response = await axios.post('https://gen-code-api.onrender.com/api/signup/', {
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
