@@ -102,13 +102,11 @@ yourproject/
 
 ## Screenshots
 
-Include some screenshots of your project:
-
 ![Gen_Code](./src/assets/Documentation%20Images/Screenshot%20(166).png)
-*Description of Feature 1 Screenshot*
+- Quickly generate QR codes for different types of content
 
 ![Gen_Code](./src/assets/Documentation%20Images/Screenshot%20(221).png)
-*Description of Feature 2 Screenshot*
+- Quickly generate QR codes for different types of content
 
 ## Contributing
 
@@ -140,8 +138,8 @@ If you have any questions or feedback, please feel free to reach out to the cont
   - LinkedIn: [https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/](https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/)
   - GitHub: [https://github.com/iyanuloluwa-Miracle](https://github.com/iyanuloluwa-Miracle)
 
-- **Contributor's Name** - [contributor.email@example.com](mailto:contributor.email@example.com)
-  - LinkedIn: [Contributor's LinkedIn](https://linkedin.com/in/contributorprofile)
-  - GitHub: [Contributor's GitHub](https://github.com/contributorusername)
+- **Toluwalase Bewaji** - [contributor.email@example.com](mailto:contributor.email@example.com)
+  - LinkedIn: [https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/](https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/)
+  - GitHub: [https://github.com/Bewizi](https://github.com/Bewizi)
 
 ---
