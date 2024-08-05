@@ -1,12 +1,25 @@
 # GenCode
 
-A 
+### QR Code Generator Platform is a web application that allows users to create and download QR codes for free. This platform supports various QR code types, including:
+
+- **Image**: Convert images into QR codes.
+- **Gmail**: Generate QR codes for Gmail addresses.
+- **PDF**: Create QR codes that link to PDF files.
+- **Contact Card**: Generate vCard QR codes for easy contact sharing.
+- **Events**: Create QR codes for event details and invitations.
+- **Twitter**: Generate QR codes that link to Twitter profiles.
+- **YouTube**: Create QR codes for YouTube videos or channels.
+- **Facebook**: Generate QR codes for Facebook profiles or pages.
+
+### With a user-friendly interface and support for multiple QR code types, the QR Code Generator Platform is designed to meet various needs, whether for personal use, professional purposes, or marketing campaigns
 
 ![Project Screenshot](public/assets/images/project-screenshot.png)
 
 ## Table of Contents
 
 - [GenCode](#gencode)
+    - [QR Code Generator Platform is a web application that allows users to create and download QR codes for free. This platform supports various QR code types, including:](#qr-code-generator-platform-is-a-web-application-that-allows-users-to-create-and-download-qr-codes-for-free-this-platform-supports-various-qr-code-types-including)
+    - [With a user-friendly interface and support for multiple QR code types, the QR Code Generator Platform is designed to meet various needs, whether for personal use, professional purposes, or marketing campaigns](#with-a-user-friendly-interface-and-support-for-multiple-qr-code-types-the-qr-code-generator-platform-is-designed-to-meet-various-needs-whether-for-personal-use-professional-purposes-or-marketing-campaigns)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
@@ -16,14 +29,13 @@ A
   - [Screenshots](#screenshots)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Acknowledgements](#acknowledgements)
   - [Contact](#contact)
 
 ## Features
 
-- **Feature 1**: Brief description of feature 1
-- **Feature 2**: Brief description of feature 2
-- **Feature 3**: Brief description of feature 3
+- **Easy QR Code Generation**: Quickly generate QR codes for different types of content.
+- **Download Options**: Download your QR codes in various formats for easy sharing and printing.
+- **Free Access**: Enjoy all features without any cost
 
 ## Technologies Used
 
@@ -83,7 +95,8 @@ yourproject/
 - `src/`: Source files
   - `assets/`: Static assets (images, fonts, etc.)
   - `components/`: Vue components
-  - `views/`: Vue views/pages
+  - `pages/`: Vue pages
+  - `routes/`: Vue routes
   - `App.vue`: Root component
   - `main.js`: Entry point
 
@@ -119,22 +132,16 @@ Contributions are welcome! Please follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Mention any resources, libraries, or contributors you want to acknowledge.
-
 ## Contact
 
-If you have any questions or feedback, please feel free to reach out:
+If you have any questions or feedback, please feel free to reach out to the contributors:
 
-- Your Name - [your.email@example.com](mailto:your.email@example.com)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
+- **Dina Iyanuloluwa** - [iyanudina@gmail.com](iyanudina@gmail.com)
+  - LinkedIn: [https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/](https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/)
+  - GitHub: [https://github.com/iyanuloluwa-Miracle](https://github.com/iyanuloluwa-Miracle)
+
+- **Contributor's Name** - [contributor.email@example.com](mailto:contributor.email@example.com)
+  - LinkedIn: [Contributor's LinkedIn](https://linkedin.com/in/contributorprofile)
+  - GitHub: [Contributor's GitHub](https://github.com/contributorusername)
 
 ---
-
-![Gen_Code](./src/assets/Documentation%20Images/Screenshot%20(165).png)
-
-
-
