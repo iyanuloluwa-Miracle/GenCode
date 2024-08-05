@@ -106,7 +106,7 @@ yourproject/
 - Quickly generate QR codes for different types of content
 
 ![Gen_Code](./src/assets/Documentation%20Images/Screenshot%20(221).png)
-- Quickly generate QR codes for different types of content
+- Download your QR codes in various formats for easy sharing and printing.
 
 ## Contributing
 
