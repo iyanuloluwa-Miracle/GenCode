@@ -1,6 +1,5 @@
 # GenCode
-
-### QR Code Generator Platform is a web application that allows users to create and download QR codes for free. This platform supports various QR code types, including:
+QR Code Generator Platform is a web application that allows users to create and download QR codes for free. This platform supports various QR code types, including:
 
 - **Image**: Convert images into QR codes.
 - **Gmail**: Generate QR codes for Gmail addresses.
@@ -11,15 +10,11 @@
 - **YouTube**: Create QR codes for YouTube videos or channels.
 - **Facebook**: Generate QR codes for Facebook profiles or pages.
 
-### With a user-friendly interface and support for multiple QR code types, the QR Code Generator Platform is designed to meet various needs, whether for personal use, professional purposes, or marketing campaigns
 
-![Project Screenshot](public/assets/images/project-screenshot.png)
+ With a user-friendly interface and support for multiple QR code types, the QR Code Generator Platform is designed to meet various needs, whether for personal use, professional purposes, or marketing campaigns
 
 ## Table of Contents
-
 - [GenCode](#gencode)
-    - [QR Code Generator Platform is a web application that allows users to create and download QR codes for free. This platform supports various QR code types, including:](#qr-code-generator-platform-is-a-web-application-that-allows-users-to-create-and-download-qr-codes-for-free-this-platform-supports-various-qr-code-types-including)
-    - [With a user-friendly interface and support for multiple QR code types, the QR Code Generator Platform is designed to meet various needs, whether for personal use, professional purposes, or marketing campaigns](#with-a-user-friendly-interface-and-support-for-multiple-qr-code-types-the-qr-code-generator-platform-is-designed-to-meet-various-needs-whether-for-personal-use-professional-purposes-or-marketing-campaigns)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
@@ -138,7 +133,7 @@ If you have any questions or feedback, please feel free to reach out to the cont
   - LinkedIn: [https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/](https://www.linkedin.com/in/dina-iyanuloluwa-anuoluwapo/)
   - GitHub: [https://github.com/iyanuloluwa-Miracle](https://github.com/iyanuloluwa-Miracle)
 
-- **Toluwalase Bewaji** - [contributor.email@example.com](mailto:contributor.email@example.com)
+- **Toluwalase Bewaji** - [toluwalase.bewaji@yahoo.com](toluwalase.bewaji@yahoo.com)
   - LinkedIn: [https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/](https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/)
   - GitHub: [https://github.com/Bewizi](https://github.com/Bewizi)
 
