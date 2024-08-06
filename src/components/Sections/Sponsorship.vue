@@ -1,26 +1,32 @@
 <template>
-    <div class="flex items-center justify-evenly flex-wrap image mt-8">
-        <img src="../../assets/images/Group.svg" alt="Group"/>
-        <img src="../../assets/images/Uxcel svg.svg" alt="Uxcel logo"/>
-        <img src="../../assets/images/g12.svg" alt="g12.svg"/>
-
+  <section class="max-w-7xl mx-auto">
+    <div
+      class="flex items-center justify-evenly flex-wrap mb-28 gap-10 px-5 lg:px-0"
+    >
+      <img
+        src="../../assets/images/Group.svg"
+        alt="Group"
+        class="w-56 lg:w-auto"
+      />
+      <img
+        src="../../assets/images/Uxcel svg.svg"
+        alt="Uxcel logo"
+        class="w-56 lg:w-auto"
+      />
+      <img
+        src="../../assets/images/g12.svg"
+        alt="g12.svg"
+        class="w-56 lg:w-auto"
+      />
     </div>
+  </section>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style scoped>
- @media (max-width:768px){
-   .image{
-    width:40%;
-    gap: 30px;
-    margin-left: 90px;
-   
-   }   
-  }
-
+@media (max-width: 768px) {
+}
 </style>

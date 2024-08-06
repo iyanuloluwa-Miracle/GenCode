@@ -1,56 +1,84 @@
 <template>
-  <div>
-    <h2
-      class="text-[56px] text-center mt-9 text-[#272E31] font-medium servicesComponent"
-    >
-      Our Services
-    </h2>
-    <p class="text-[16px] text-center text-[#2B2121] serviceComponent">
-      We always want to provide the best value for you. GenCode gives you the
-      best experience while you<br />generate your QR code
-    </p>
-
-    <div class="image flex justify-center items-center">
-      <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" />
-    </div>
-
-
-    <div class="flex mt-5 ml-9 justify-evenly items-center flex-wrap wrapper-cards">
-      <div class=" bg-whites rounded-[16px] hover:bg-[#76D4DF] cards">
-        <img src="../../assets/icons/padlock.svg" alt="padlock" width="35" class="ml-10 mt-8"/>
-       <h4 class="text-[40px] font-semibold px-10 mt-5 text-[#12292B] card-heading4">Business and <br>Portfolio Visibility</h4>
-       <p class="text-[18px] px-10 pt-2 text-[#1E4448] card-paragraph">We give you an online presence so <br>your customers find you on the <br> world wide web. Encrypt your <br> portfolio's URL with us</p>
-
+  <section>
+    <section class="max-w-7xl mx-auto px-5 lg:px-0">
+      <!-- Header -->
+      <div class="text-center mb-10">
+        <h2 class="font-bold text-4xl mb-3">Our Services</h2>
+        <p class="md:text-xl lg:max-w-4xl mx-auto leading-normal">
+          We always want to provide the best value for you. Gencode gives you
+          the best experience while you generate your QR Code
+        </p>
+      </div>
+      <div class="image flex justify-center items-center">
+        <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" />
       </div>
 
-      <div class=" bg-whites rounded-[16px] hover:bg-[#76D4DF]">
-        <img src="../../assets/icons/barcode.svg" alt="barcode" width="35" class="ml-10 mt-8"/>
-        <h4 class="text-[40px] font-semibold px-10 mt-5 text-[#12292B] card-heading4">Identity<br>Authentication</h4>  
-        <p class="text-[18px] px-10 pt-2 text-[#1E4448] card-paragraph">We provide you with an internet<br>presence so that customers may<br>locate you online. We can encrypt<br>the URL for your portfolio.</p>
+      <section class="flex items-center flex-wrap gap-10 lg:flex-nowrap">
+        <div
+          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+        >
+          <img
+            src="../../assets/icons/padlock.svg"
+            alt="padlock"
+            width="35"
+            class="mb-5"
+          />
+          <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
+            Business and Portfolio Visibility
+          </h4>
+          <p class="leading-normal">
+            We give you an online presence so your customers find you on the
+            world wide web. Encrypt your portfolio's URL with us
+          </p>
+        </div>
 
-      </div>
+        <div
+          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+        >
+          <img
+            src="../../assets/icons/barcode.svg"
+            alt="barcode"
+            width="35"
+            class="mb-5"
+          />
+          <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
+            Identity Authentication
+          </h4>
+          <p class="leading-normal">
+            We provide you with an internet presence so that customers may
+            locate you online. We can encrypt the URL for your portfolio.
+          </p>
+        </div>
 
-      <div class="rounded-[16px] bg-whites hover:bg-[#76D4DF] h-">
-        <img src="../../assets/icons/user.svg" alt="user" width="35" class="ml-10 mt-8"/>
-        <h4 class="text-[40px] font-semibold px-10 mt-5 text-[#12292B] card-heading4">Improved<br>Communication</h4>
-        <p class="text-[18px] px-10 pt-2 text-[#1E4448] card-paragraph">Confidential messages,Information <br> and the most sensitive documentation <br>can be communicated <br>in text</p>
-
-      </div>
-
-      
-     
-
-    </div>
-    <div class="flex justify-center items-center mt-10 mb-10 scan-button">
+        <div
+          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+        >
+          <img
+            src="../../assets/icons/user.svg"
+            alt="user"
+            width="35"
+            class="mb-5"
+          />
+          <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
+            Improved Communication
+          </h4>
+          <p class="leading-normal">
+            Confidential messages,Information and the most sensitive
+            documentation can be communicated in text
+          </p>
+        </div>
+      </section>
+      <div class="flex justify-center items-center mt-10 mb-10 scan-button">
         <a class="flex items-center gap-9" href="#">
           <button
-            class="capitalize text-[12px] font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-60 hover:text-whites"
+            class="text-sm capitalize font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-60 hover:text-whites lg:text-base"
           >
             Generate QR code
           </button>
         </a>
       </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script></script>
@@ -73,19 +101,15 @@
     font-size: 12px;
   }
 
-
-  .card-heading4{
+  .card-heading4 {
     font-size: 24px;
-
   }
-  .card-paragraph{
-     font-size: 16px;
-
+  .card-paragraph {
+    font-size: 16px;
   }
-  .wrapper-cards{
+  .wrapper-cards {
     width: 90%;
     gap: 30px;
-
   }
 }
 </style>
