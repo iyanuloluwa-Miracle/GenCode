@@ -1,66 +1,150 @@
 <template>
-  <Header class="bg-[#F3FAFD] ">
-    <Nav class="flex justify-between items-center w-[92%] mx-auto">
-      <router-link to="/">
-        <img src="../../assets/icons/Gen_Code.svg" alt="nav-logo" class="nav-logo"/>
-      </router-link>
+  <section class="bg-[#F3FAFD] py-16 lg:py-0">
+    <section class="max-w-7xl mx-auto">
+      <!-- Sentinel element -->
+      <div id="sentinel" class="h-1"></div>
 
-      <div
-        class="nav-link duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 "
-        :class="{ 'top-[9%]': menuOpen }"
-      >
-        <ul
-          class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+      <header :class="{ 'sticky-header': isSticky }">
+        <nav
+          class="flex flex-col lg:items-center lg:justify-between lg:flex-row"
         >
-          <li class="text-[14px] text-Till01 font-bold"><router-link to="/">Home</router-link></li>
-          <li class="text-[14px] text-Till01 font-bold"><router-link to="/services">Services</router-link></li>
-          <li class="text-[14px] text-Till01 font-bold"><router-link to="/contact-us">Contact Us</router-link></li>
-          <li class="text-[14px] text-Till01 font-bold"><router-link to="/faqs">FAQS</router-link></li>
-        </ul>
-      </div>
-
-      <div class="flex items-center gap-7">
-        <router-link to="/login" class="flex items-center gap-9">
-          <button
-            class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform  bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Till10101 hover:text-whites w-28"
+          <figure
+            class="flex justify-between items-center pr-5 lg:pr-0 lg:block"
           >
-            Login
-          </button>
-        </router-link>
+            <router-link to="/">
+              <img
+                src="../../assets/icons/Gen_Code.svg"
+                alt="nav-logo"
+                class="nav-logo"
+              />
+            </router-link>
 
-        <router-link to="/register" class="flex items-center gap-9">
-          <button
-            class="capitalize text-[12px] font-bold rounded p-2 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-Aqua hover:text-whites w-28"
+            <!-- responsible for opening and closing of the links on mobile and tablet -->
+            <div class="flex text-4xl lg:hidden">
+              <i
+                v-if="!isBarVisible"
+                @click="close"
+                class="pi pi-times visible cursor-pointer"
+              ></i>
+              <i
+                v-else="isBarVisible"
+                @click="open"
+                class="pi pi-bars visible cursor-pointer"
+              ></i>
+            </div>
+          </figure>
+
+          <ul
+            v-show="showAnchorLinks"
+            class="flex flex-col mb-10 ml-20 space-y-10 md:items-center lg:flex-row lg:space-x-16 lg:mb-0 lg:space-y-0 md:ml-0"
           >
-            Register
-          </button>
-        </router-link>
+            <li class="text-Till01 font-bold">
+              <router-link to="/">Home</router-link>
+            </li>
+            <li class="text-Till01 font-bold">
+              <router-link to="/services">Services</router-link>
+            </li>
+            <li class="text-Till01 font-bold">
+              <router-link to="/contact-us">Contact Us</router-link>
+            </li>
+            <li class="text-Till01 font-bold">
+              <router-link to="/faqs">FAQS</router-link>
+            </li>
 
-        <ion-icon @click="toggleMenu" name="menu" class="text-[25px] cursor-pointer md:hidden"></ion-icon>
-      </div>
-    </Nav>
-  </Header>
+            <div class="flex flex-col gap-5 md:flex-row lg:hidden md:gap-7">
+              <router-link to="/login" class="flex items-center gap-9">
+                <button
+                  class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Till10101 hover:text-whites w-28"
+                >
+                  Login
+                </button>
+              </router-link>
+
+              <router-link to="/register" class="flex items-center gap-9">
+                <button
+                  class="capitalize text-[12px] font-bold rounded p-2 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-Aqua hover:text-whites w-28"
+                >
+                  Register
+                </button>
+              </router-link>
+            </div>
+          </ul>
+
+          <div class="hidden lg:flex items-center gap-7">
+            <router-link to="/login" class="flex items-center gap-9">
+              <button
+                class="capitalize rounded p-2 cursor-pointer text-[12px] font-bold transition-all duration-150 ease-in transform bg-whites text-blue01 border-[1px] border-Till10101 hover:bg-Till10101 hover:text-whites w-28"
+              >
+                Login
+              </button>
+            </router-link>
+
+            <router-link to="/register" class="flex items-center gap-9">
+              <button
+                class="capitalize text-[12px] font-bold rounded p-2 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-Aqua hover:text-whites w-28"
+              >
+                Register
+              </button>
+            </router-link>
+          </div>
+        </nav>
+      </header>
+    </section>
+  </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      menuOpen: false,
-    };
-  },
-  methods: {
-    toggleMenu() {
-      this.menuOpen = !this.menuOpen;
-    },
-  },
+<script setup>
+import { onMounted, ref, onBeforeUnmount } from "vue";
+
+const isBarVisible = ref(true);
+const showAnchorLinks = ref(false);
+const isSticky = ref(false);
+
+const open = () => {
+  console.log("open");
+  isBarVisible.value = false;
+  showAnchorLinks.value = true;
 };
+
+const close = () => {
+  console.log("close");
+  isBarVisible.value = true;
+  showAnchorLinks.value = false;
+};
+
+onMounted(() => {
+  if (window.innerWidth >= 1024) {
+    showAnchorLinks.value = true;
+  }
+
+  // Set up Intersection Observer
+  const sentinel = document.querySelector("#sentinel");
+  const observer = new IntersectionObserver(
+    ([entries]) => {
+      isSticky.value = !entries.isIntersecting;
+    },
+    { threshold: 0 }
+  );
+
+  if (sentinel) {
+    observer.observe(sentinel);
+  }
+
+  onBeforeUnmount(() => {
+    if (sentinel) {
+      observer.unobserve(sentinel);
+    }
+  });
+});
 </script>
 <style scoped>
-@media (max-width:768px){
-   .nav-logo{
-    width: 100%; /* adjust this value as needed */
-   }  
-   /* rest of your styles */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #f3fafd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 </style>

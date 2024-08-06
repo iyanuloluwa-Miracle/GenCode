@@ -78,19 +78,5 @@
     text-align: center;
     margin-left: 15px;
   }
-  .service {
-    text-align: center;
-    margin-left: 15px;
-  }
-  .card-heading4 {
-    font-size: 24px;
-  }
-  .card-paragraph {
-    font-size: 16px;
-  }
-  .wrapper-cards {
-    width: 90%;
-    gap: 30px;
-  }
 }
 </style>
