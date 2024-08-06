@@ -10,19 +10,12 @@
         </p>
       </div>
       <div class="image flex justify-center items-center">
-        <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" />
+        <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" class="rotate-image-continuously" />
       </div>
 
       <section class="flex items-center flex-wrap gap-10 lg:flex-nowrap">
-        <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
-        >
-          <img
-            src="../../assets/icons/padlock.svg"
-            alt="padlock"
-            width="35"
-            class="mb-5"
-          />
+        <div class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm">
+          <img src="../../assets/icons/padlock.svg" alt="padlock" width="35" class="mb-5" />
           <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
             Business and Portfolio Visibility
           </h4>
@@ -32,15 +25,8 @@
           </p>
         </div>
 
-        <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
-        >
-          <img
-            src="../../assets/icons/barcode.svg"
-            alt="barcode"
-            width="35"
-            class="mb-5"
-          />
+        <div class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm">
+          <img src="../../assets/icons/barcode.svg" alt="barcode" width="35" class="mb-5" />
           <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
             Identity Authentication
           </h4>
@@ -50,15 +36,8 @@
           </p>
         </div>
 
-        <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
-        >
-          <img
-            src="../../assets/icons/user.svg"
-            alt="user"
-            width="35"
-            class="mb-5"
-          />
+        <div class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm">
+          <img src="../../assets/icons/user.svg" alt="user" width="35" class="mb-5" />
           <h4 class="text-2xl font-semibold mb-5 lg:text-4xl lg:max-w-xs">
             Improved Communication
           </h4>
@@ -71,8 +50,7 @@
       <div class="flex justify-center items-center mt-10 mb-10 scan-button">
         <a class="flex items-center gap-9" href="#">
           <button
-            class="text-sm capitalize font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-60 hover:text-whites lg:text-base"
-          >
+            class="text-sm capitalize font-bold rounded p-3 cursor-pointer transition-all duration-150 ease-in transform text-black01 bg-Till10101 hover:bg-blue01 w-60 hover:text-whites lg:text-base">
             Generate QR code
           </button>
         </a>
@@ -112,4 +90,19 @@
     gap: 30px;
   }
 }
+
+
+/* .rotate-image-continuously {
+  animation: rotate360 2s linear infinite;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
 </style>
