@@ -92,7 +92,7 @@
 }
 
 
-.rotate-image-continuously {
+/* .rotate-image-continuously {
   animation: rotate360 2s linear infinite;
 }
 
@@ -104,5 +104,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 </style>

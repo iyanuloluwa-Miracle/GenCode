@@ -26,7 +26,7 @@
       </div>
     </div>
     <div>
-      <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" class="rotate-image-continuously" />
+      <img src="../../assets/images/Barcode.svg" alt="Bar_code scannner" />
     </div>
   </section>
 </template>
@@ -39,7 +39,7 @@ export default {};
 @media (max-width: 768px) {
 }
 
-.rotate-image-continuously {
+/* .rotate-image-continuously {
   animation: rotate360 2s linear infinite;
 }
 
@@ -51,6 +51,6 @@ export default {};
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 </style>
