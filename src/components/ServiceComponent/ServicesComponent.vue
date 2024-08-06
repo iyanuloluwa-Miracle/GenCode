@@ -91,6 +91,7 @@
   }
 }
 
+
 .rotate-image-continuously {
   animation: rotate360 2s linear infinite;
 }
