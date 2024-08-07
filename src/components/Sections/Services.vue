@@ -12,7 +12,7 @@
 
       <section class="flex items-center flex-wrap gap-10 lg:flex-nowrap">
         <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+          class="bg-white p-10 rounded-md shadow-md hover:bg-TiffanyBlue lg:max-w-sm"
         >
           <img
             src="../../assets/icons/padlock.svg"
@@ -30,7 +30,7 @@
         </div>
 
         <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+          class="bg-whites p-10 rounded-md shadow-md hover:bg-TiffanyBlue lg:max-w-sm"
         >
           <img
             src="../../assets/icons/barcode.svg"
@@ -48,7 +48,7 @@
         </div>
 
         <div
-          class="bg-whites p-10 rounded-md shadow-md hover:bg-[#76D4DF] lg:max-w-sm"
+          class="bg-white p-10 rounded-md shadow-md hover:bg-TiffanyBlue lg:max-w-sm"
         >
           <img
             src="../../assets/icons/user.svg"

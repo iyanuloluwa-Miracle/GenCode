@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#2E666D] py-16 pr-5 lg:pr-0 footer-section">
+  <footer class="bg-Teal py-16 pr-5 lg:pr-0 footer-section">
     <section
       class="max-w-7xl mx-auto flex flex-col space-x-28 md:flex-row lg:flex-row"
     >
@@ -28,38 +28,38 @@
         class="grid grid-cols-1 place-content-center md:grid-cols-3 lg:grid-cols-4"
       >
         <section class="mb-5 lg:mb-0">
-          <h4 class="text-3xl text-whites font-semibold mb-2">About</h4>
+          <h4 class="text-3xl text-white font-semibold mb-2">About</h4>
           <ul class="leading-loose">
-            <li class="text-whites">About Us</li>
-            <li class="text-whites">Our Services</li>
-            <li class="text-whites">Contact Us</li>
-            <li class="text-whites">Support</li>
+            <li class="text-white">About Us</li>
+            <li class="text-white">Our Services</li>
+            <li class="text-white">Contact Us</li>
+            <li class="text-white">Support</li>
           </ul>
         </section>
 
         <section class="mb-5 lg:mb-0">
-          <h4 class="text-3xl text-whites font-semibold mb-2">Product</h4>
+          <h4 class="text-3xl text-white font-semibold mb-2">Product</h4>
           <ul class="leading-loose">
-            <li class="text-whites">Why Gencode</li>
-            <li class="text-whites">How it works</li>
-            <li class="text-whites">APIS</li>
+            <li class="text-white">Why Gencode</li>
+            <li class="text-white">How it works</li>
+            <li class="text-white">APIS</li>
           </ul>
         </section>
 
         <section class="mb-5 lg:mb-0">
-          <h4 class="text-3xl text-whites font-semibold mb-2">Support</h4>
+          <h4 class="text-3xl text-white font-semibold mb-2">Support</h4>
           <ul class="leading-loose">
-            <li class="text-whites">Terms to use</li>
-            <li class="text-whites">Privacy</li>
-            <li class="text-whites">FAQS</li>
-            <li class="text-whites">Support</li>
+            <li class="text-white">Terms to use</li>
+            <li class="text-white">Privacy</li>
+            <li class="text-white">FAQS</li>
+            <li class="text-white">Support</li>
           </ul>
         </section>
 
         <section>
-          <h4 class="text-3xl text-whites font-semibold mb-2">Contact Us</h4>
+          <h4 class="text-3xl text-white font-semibold mb-2">Contact Us</h4>
           <div>
-            <p class="text-whites mb-5">
+            <p class="text-white mb-5">
               Send an email and get a response from us
             </p>
 
