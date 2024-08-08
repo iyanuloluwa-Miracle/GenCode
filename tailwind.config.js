@@ -5,37 +5,30 @@ export default {
 
   // Theme configuration
   theme: {
-    // Define font sizes
-    // fontSize: {
-    //   xs: ['12px', '16px'],
-    //   sm: ['14px', '150%'],
-    //   sm01:['33px'],
-    //   base: ['24px', '24%'],
-    //   base02: ['12px', '24px'],
-    //   base2: ['32px', '150%'],
-    //   xl: ['40px', '150%'],
-    // },
-
     // Extend or override existing theme properties
     extend: {
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
       },
-    },
 
-    // Define custom colors
-    colors: {
-      Till10101: "#76D4DF",
-      Till091: "#3D8891",
-      Till01: "#214953",
-      black02: "#2B2121",
-      black01: "#1D1616",
-      blue01: "#F3FAFD",
-      "Dark Till": "#214953",
-      Grey: "#AFB1B6",
-      whites: "#FFFFFF",
-      blue01: "#2E666D",
-      Aqua: "#4D7179",
+      // Define custom colors
+      colors: {
+        TiffanyBlue: "#76D4DF",
+        TealBlue: "#3D8891",
+        MidnightGreen: "#214953",
+        // DarkSlateGray: "#214953",
+        RaisinBlack: "#2B2121",
+        Licorice: "#1D1616",
+        AliceBlue: "#F3FAFD",
+        SilverSand: "#AFB1B6",
+        // whites: "#FFFFFF",
+        Teal: "#2E666D",
+        PaynesGray: "#4D7179",
+      },
+
+      animation: {
+        "spin-slow": "spin 5s linear infinite",
+      },
     },
 
     // // Define screen breakpoints for responsive design

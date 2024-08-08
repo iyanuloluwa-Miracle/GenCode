@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-7xl mx-auto px-5 lg:px-0 mb-28">
     <h2
-      class="text-2xl font-bold text-center text-[#2B2121] md:text-4xl lg:text-5xl"
+      class="text-2xl font-bold text-center text-RaisinBlack md:text-4xl lg:text-5xl"
     >
       Easy steps to create your unique QR code
     </h2>
@@ -16,7 +16,9 @@
             />
           </figure>
           <div class="mt-5 md:mb-5 lg:mt-0">
-            <h4 class="text-3xl font-medium mb-3 text-[#214953] lg:text-4xl">
+            <h4
+              class="text-3xl font-medium mb-3 text-MidnightGreen lg:text-4xl"
+            >
               Register
             </h4>
             <p class="text-lg">
@@ -34,7 +36,9 @@
             />
           </div>
           <div class="mt-5">
-            <h4 class="text-3xl font-medium mb-3 text-[#214953] lg:text-4xl">
+            <h4
+              class="text-3xl font-medium mb-3 text-MidnightGreen lg:text-4xl"
+            >
               Input
             </h4>
             <p class="text-lg">
@@ -52,7 +56,9 @@
             />
           </div>
           <div class="mt-5">
-            <h4 class="text-3xl font-medium mb-3 text-[#214953] lg:text-4xl">
+            <h4
+              class="text-3xl font-medium mb-3 text-MidnightGreen lg:text-4xl"
+            >
               Download
             </h4>
             <p class="text-lg">
@@ -71,7 +77,9 @@
             />
           </div>
           <div class="mt-5">
-            <h4 class="text-3xl font-medium mb-3 text-[#214953] lg:text-4xl">
+            <h4
+              class="text-3xl font-medium mb-3 text-MidnightGreen lg:text-4xl"
+            >
               Save
             </h4>
             <p class="text-lg">
