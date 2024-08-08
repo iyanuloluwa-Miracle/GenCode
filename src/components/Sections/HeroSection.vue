@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#F3FAFD] flex items-center justify-around flex-wrap mb-28 lg:flex-nowrap"
+    class="bg-[#F3FAFD] flex items-center justify-evenly flex-wrap mb-28 py-10 lg:flex-nowrap"
   >
     <div>
       <h2
@@ -13,7 +13,7 @@
       </p>
 
       <div
-        class="flex items-center flex-wrap gap-10 pt-10 justify-center item-center lg:flex-nowrap"
+        class="flex items-center flex-wrap gap-10 pt-10 mb-10 justify-center item-center lg:flex-nowrap lg:mb-0"
       >
         <a class="flex items-center gap-9" href="#">
           <button
@@ -32,9 +32,9 @@
         </a>
       </div>
     </div>
-    <figure class="">
+    <figure class="max-w-xs md:max-w-full lg:max-w-md">
       <img
-        src="../../assets/images/Barcode.svg"
+        src="../../assets/images/QR Code Cube.png"
         alt="Bar_code scannner"
         class="animate-spin-slow"
       />
