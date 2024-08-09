@@ -10,9 +10,9 @@
 
 <script>
 
-    import Navbar from '../components/Sections/Navbar.vue'
-    import ContactUsComponent from '../components/ContactUs/ContactUsComponent.vue';
-    import FooterVue from '../components/Sections/Footer.vue'
+    import Navbar from '../components/Navbar/Navbar.vue'
+    import ContactUsComponent from '../components/ContactUs/ContactUsComponent.vue'
+    import FooterVue from '../components/Footer/Footer.vue'
 
 
     export default {
