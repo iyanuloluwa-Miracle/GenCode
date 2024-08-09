@@ -9,14 +9,17 @@
           the best experience while you generate your QR Code
         </p>
       </div>
-      <div class="image flex justify-center items-center">
-        <img
-          src="../../assets/images/Barcode.svg"
-          alt="Bar_code scannner"
-          class="rotate-image-continuously"
-        />
-      </div>
+      
 
+      <figure
+        class="flex justify-center items-center mb-10 max-w-2xl md:max-w-full lg:max-w-full"
+      >
+        <img
+          src="../../assets/images/QR Code Cube.png"
+          alt="Bar_code scannner"
+          class="animate-spin-slow"
+        />
+      </figure>
       <section class="flex items-center flex-wrap gap-10 lg:flex-nowrap">
         <div
           class="bg-white p-10 rounded-md shadow-md hover:bg-TiffanyBlue lg:max-w-sm"
