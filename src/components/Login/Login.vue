@@ -15,50 +15,30 @@
 
       <section class="my-2 mb-2">
         <label for="email" class="text-base02 block my-2">E-mail</label>
-        <input
-          v-model="email"
-          class="input border-[1px] border-blue01 focus:border-Till10101 focus:outline-none rounded-md w-full h-11 px-3 transition-all duration-300 ease-linear"
-          type="email"
-          placeholder=" Enter your email"
-          required=""
-          name="email"
-          value=""
-        />
+        <input v-model="email"
+          class="input border-[1px] border-TiffanyBlue focus:border-TealBlue focus:outline-none rounded-md w-full h-11 px-3 transition-all duration-300 ease-linear"
+          type="email" placeholder=" Enter your email" required="" name="email" value="" />
       </section>
 
       <section class="my-2 mb-2">
         <label class="text-base02 block my-2"> Password </label>
-        <input
-          v-model="password"
-          class="input border-[1px] border-blue01 focus:border-Till10101 focus:outline-none rounded-md w-full h-11 px-3 transition-all duration-300 ease-linear"
-          type="text"
-          placeholder="password"
-          required=""
-          name="password"
-          value=""
-        />
+        <input v-model="password"
+          class="input border-[1px] border-TiffanyBlue focus:border-TealBlue focus:outline-none rounded-md w-full h-11 px-3 transition-all duration-300 ease-linear"
+          type="text" placeholder="password" required="" name="password" value="" />
       </section>
 
       <section class="my-4 mb-5 w-full">
-        <button
-          :disabled="loading"
-          class="font-semibold selection:capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-whites bg-Till10101 hover:bg-blue01 w-full"
-        >
+        <button :disabled="loading"
+          class="font-semibold selection:capitalize rounded p-2 cursor-pointer transition-all duration-150 ease-in transform undefined text-whites bg-TiffanyBlue hover:bg-TealBlue w-full">
           {{ loading ? 'Logging in.....' : 'Login' }}
         </button>
       </section>
 
       <section>
         <p class="font-semibold capitalize inline text-[13px]">
-          no account?<router-link
-            to="/register"
-            class="font-semibold capitalize text-[13px] px-1 text-Till091"
-            >create account</router-link
-          ><router-link
-            class="font-semibold capitalize text-[13px] px-1 text-Till091"
-            to="/forget-password"
-            >Forgot Password</router-link
-          >
+          no account?<router-link to="/register" class="font-semibold capitalize text-[13px] px-1 text-Till091">create
+            account</router-link><router-link class="font-semibold capitalize text-[13px] px-1 text-Till091"
+            to="/forget-password">Forgot Password</router-link>
         </p>
       </section>
     </form>
